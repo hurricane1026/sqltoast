@@ -11,7 +11,7 @@ STRING(TOLOWER "${CMAKE_BUILD_TYPE}" BUILD_TYPE_LOWER)
 SET(
     CMAKE_MODULE_PATH
     ${CMAKE_MODULE_PATH}
-    "${CMAKE_SOURCE_DIR}/cmake_modules"
+    "${PROJECT_SOURCE_DIR}/cmake_modules"
 )
 
 # Must use GNUInstallDirs to install libraries into correct
